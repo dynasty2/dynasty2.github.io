@@ -59,20 +59,6 @@ header {
 	text-align: center;
 }
 
-
-
-/*.search {
-	width: 865px;
-	height: 55px;
-	margin-top: -5px;
-	margin-left: 10px;
-	border-radius: 10px;
-	background-color: white;
-	opacity: .5;
-	position: relative;
-	text-align: center;
-}*/
-
 #words-in-search {
 	font-size: 18px;
 	position: absolute;
@@ -80,6 +66,7 @@ header {
  	left: 15%;
  	transform: translate(-50%, -50%);
  	color: white;
+ 	opacity: .6;
 }
 
 .nav {
@@ -331,11 +318,79 @@ a {
   }
 }
 
-/*@media only screen and (max-width: 600px) {
-  body .cal2 {
-    display: none;
+@media only screen and (max-width: 1282px) {
+  .main, .content1, .both-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    margin-left: -20px;
   }
-}*/
+}
 
+@media only screen and (max-width: 722px) {
+ .main .content1 .words1 h1 {
+ 	font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 722px) {
+  .words2 {
+   display: none;
+  }
+}
+
+@media only screen and (max-width: 722px) {
+  .both-buttons {
+   margin-top: -150px;
+  }
+}
+
+@media only screen and (max-width: 1282px) {
+  .both-buttons {
+   height: 20%;
+   margin-left: 25px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 1282px) {
+  .main {
+ 	margin-top: -100px;
+  }
+}
+
+@media only screen and (max-width: 722px) {
+  .main-date {
+   margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 527px) {
+  .main {
+   margin-left: -70px;
+  }
+}
+
+@media only screen and (max-width: 334px) {
+  .blur2, .student {
+   display: none;
+  }
+}
+
+@media only screen and (max-height: 564px) {
+  .both-buttons {
+   display: none;
+  }
+}
+
+@media only screen and (max-height: 437px) {
+  .main-date {
+   display: none;
+  }
+}
 /*<input type="text" placeholder="Search.." style="width: 600px; height: 60px">*/
 /*html search link*/
